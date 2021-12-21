@@ -1,6 +1,6 @@
 # Olexandr Chorniy
 
----
+## <img src="./photo_2021-11-25_19-07-43.jpg" width="200">
 
 ## Contact information:
 
@@ -48,10 +48,17 @@ return result;
 - Courses:
   - CS50 lectures
   - Beetroot Academy (html/css)
-  ***
+
+---
 
 ## Languages:
 
 - English - Intermediate/Upper-intermediate (B1-B2)
 - Ukrainian - Native
 - Russian - Intermediate
+
+---
+
+## Projects:
+
+[My first project (this CV)](https://lemmdev.github.io/rsschool-cv/cv)
