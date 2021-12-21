@@ -38,3 +38,20 @@ return result;
 ```
 
 ---
+
+## Education:
+
+- University "Ukraine"
+  - manager of public authorities and administration
+- GoIT
+  - 7 day HTML/CSS maraphone
+- Courses:
+  - CS50 lectures
+  - Beetroot Academy (html/css)
+  ***
+
+## Languages:
+
+- English - Intermediate/Upper-intermediate (B1-B2)
+- Ukrainian - Native
+- Russian - Intermediate
