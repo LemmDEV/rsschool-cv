@@ -1,1 +1,1 @@
-https://lemmdev.github.io/rsschool-cv/cv
+https://lemmdev.github.io/rsschool-cv/
