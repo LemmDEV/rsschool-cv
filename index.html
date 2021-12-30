@@ -1,14 +1,237 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ru">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
-    <link href="style.css" rel="stylesheet">
+    <title>Resume</title>
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
+
 <body>
-    <h1>My CV (html)</h1>
-    <img class="photo" src="./photo_2021-11-25_19-07-43.jpg">
+    <!--Main-->
+    <div class="wrapper">
+        <!-- About me container -->
+        <div class="about-me-container">
+            <div class="info-container">
+                <!--My name + info-->
+                <h2 class="profession">Front-End Developer</h2>
+                <h1 class="name">Olexandr Chornij</h1>
+
+                <span class="description">I wish to start learning the basics of web development and gain the
+                    practical experience needed to take off my career
+                </span>
+            </div>
+
+            <div class="project-container">
+                <!--My projects here-->
+                <h3 class="about-me-title">Projects</h3>
+                <ol>
+                    <li class="project-item">
+                        <a class="project-link" target="_blank" href="https://google.com/">
+                            http://HTML5/CSS3.example.com</a>
+                        <span class="dots">...............................</span>
+                        <span><b>[</b> <span class="tec-name">HTML5, CSS3</span> <b>]</b></span>
+                    </li>
+
+
+                    <li class="project-item">
+                        <a class="project-link" target="_blank" href="https://google.com/">
+                            http://JavaScript.example.com </a>
+                        <span class="dots">....................................</span>
+                        <span><b>[</b> <span class="tec-name">JavaScript</span> <b>]</b></span>
+                    </li>
+
+
+
+                    <li class="project-item">
+                        <a class="project-link" target="_blank" href="https://google.com/">
+                            https://React.js,Node.js.example.com</a>
+                        <span class="dots">........................ </span>
+                        <span><b>[</b> <span class="tec-name">React.js, Node.js</span> <b>]</b></span>
+                    </li>
+
+                </ol>
+            </div>
+
+            <div>
+                <!-- My work described here-->
+                <h3 class="about-me-title">Work experience</h3>
+
+                <h4 class="profession-title">Front-End Developer<span class="profession-company"> Freelance</span></h4>
+
+                <span class="profession-time"> September 2019 - up to now <span class="prof-divider">|</span>
+                    Ukraine</span>
+
+                <ul class="profession-duties">
+                    <li class="profession-duties-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe
+                        ipsam rem deserunt aut consequuntur <br>
+                        repellendus rerum perferendis quam atque excepturi magnam harum.
+                    </li>
+
+                    <li class="profession-duties-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+                        minima!</li>
+                    <li class="profession-duties-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="profession-title">Manager <span class="profession-company"> My favorite company </span> </h4>
+                <span class="profession-time">June 2018 - 2019 <span class="prof-divider">|</span> Ukraine</span>
+                <ul class="profession-duties">
+                    <li class="profession-duties-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                    <li class="profession-duties-item">Sit amet consectetur adipisicing elit. Neque, minima!</li>
+                    <li class="profession-duties-item">Consectetur adipisicing elit.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="profession-title">Manager <span class="profession-company">My favorite company LTD</span>
+                </h3>
+                <span class="profession-time">June 2017 - 2018 <span class="prof-divider">|</span> Boston</span>
+                <ul class="profession-duties">
+                    <li class="profession-duties-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                    <li class="profession-duties-item">Sit amet consectetur adipisicing elit. Neque, minima!</li>
+                    <li class="profession-duties-item">Consectetur adipisicing elit.</li>
+                </ul>
+            </div>
+
+            <h3 class="about-me-title">Education</h3>
+            <h3> <span class="profession-company"> &#8220; Ukraine &#8221; university</span></h3>
+
+            <h4 class="cafedra-style">Information tec.</h4>
+
+            <span class="profession-time">September 2006 -2011
+                <span class="prof-divider">|</span> Vinnitsya</span>
+        </div>
+        <aside class="sidebar">
+
+            <img class="my-photo" src="./Photo.jpg" alt="My photo">
+            <div>
+                <!-- Contacts container  -->
+                <div class="contacts-container">
+                    <h3 class="contacts-title">Contacts</h3>
+
+                    <div>
+                        <span class="contacts-link-type">
+                            <i class="fas fa-phone-square"></i>
+                        </span>
+                        <a class="contacts-link" href="tel:099-99-99-999">+38 097-817-66-29 </a>
+                    </div>
+
+                    <div>
+                        <span class="contacts-link-type">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <a class="contacts-link" href="mailto:ch_dev@ukr.net">ch_dev@ukr.net</a>
+                    </div>
+                </div>
+
+                <!--My Tech Skills-->
+
+                <div class="tech-skills-container">
+                    <h3 class="tech-skills-title">Tech Skills</h3>
+
+                    <ul>
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">HTML5</span>
+                            <div class="progress-bar">
+                                <div class="progress HTML5"></div>
+                            </div>
+                        </li>
+
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">CSS3 </span>
+                            <div class="progress-bar">
+                                <div class="progress CSS3"></div>
+                            </div>
+                        </li>
+
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">GIT</span>
+                            <div class="progress-bar">
+                                <div class="progress GIT"></div>
+                            </div>
+                        </li>
+
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">JavaScript</span>
+                            <div class="progress-bar">
+                                <div class="progress JavaScript"></div>
+                            </div>
+                        </li>
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">WebPack</span>
+                            <div class="progress-bar">
+                                <div class="progress WebPack"></div>
+                            </div>
+                        </li>
+
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">React.js</span>
+                            <div class="progress-bar">
+                                <div class="progress React_js"></div>
+                            </div>
+                        </li>
+
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">Node.js</span>
+                            <div class="progress-bar">
+                                <div class="progress Node_js"></div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="my-soft-skills-container">
+                    <!--My Soft Skills-->
+                    <h3 class="tech-skills-title">Soft Skills</h3>
+                    <ul>
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">Scrum</span>
+                        </li>
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">Agile</span>
+                        </li>
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">GTD</span>
+                        </li>
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">Teamwork</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="personal-info-container">
+                    <!--My personal-info-->
+                    <h3 class="tech-skills-title">Personal information</h3>
+                    <ul>
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">Age: 32, married</span>
+                        </li>
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">AB+ blood donor</span>
+                        </li>
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">Adress: Vinnitsya</span>
+                        </li>
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">Hobby: cycling, traveling</span>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </aside>
+
+    </div>
+
 </body>
+
 </html>
