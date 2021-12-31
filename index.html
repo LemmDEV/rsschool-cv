@@ -1,14 +1,267 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ru">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
-    <link href="style.css" rel="stylesheet">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
+
 <body>
-    <h1>My CV (html)</h1>
-    <img class="photo" src="./photo_2021-11-25_19-07-43.jpg">
+    <!--Main-->
+    <div class="wrapper">
+        <!-- About me container -->
+        <main class="about-me-container">
+            <div class="info-container">
+                <!--My name + info-->
+                <h2 class="profession">Front-End Developer</h2>
+                <h1 class="name">Olexandr Chornij</h1>
+
+                <span class="description">I wish to start learning the basics of web development and gain the
+                    practical experience needed to take off my career
+                </span>
+            </div>
+
+            <div class="project-container">
+                <!--My projects here-->
+                <!-- <h3 class="about-me-title">Education:</h3> -->
+
+                <h2 class="profession-title">Ed<span class="profession-company">ucation:</span></h2>
+                <ul>
+                    <li class="project-item"> 
+                        University "Ukraine"
+                        <span class="dots">.....................................................................</span>
+                        <ul>
+                            <li class="profession-duties-item">manager of public authorities and administration</li>
+                        </ul>
+                    </li>
+
+                    <li class="project-item">
+                        GoIT
+                        <span class="dots">.......................................................................................................</span>
+                        <ul>
+                            <li class="profession-duties-item">7 day HTML/CSS marathon</li>
+                        </ul>
+                    </li>
+
+                    <li class="project-item">
+                        Courses:
+                        <span class="dots">............................................................................................... </span>
+                        <ul>
+                            <li class="profession-duties-item">Beetroot Academy (html/css)</li>
+                            <li class="profession-duties-item">CS50 lectures</li>
+                        </ul>
+                    </li>
+                      
+                    <li class="project-item">
+                        Apps:
+                        <span class="dots">..................................................................................................... </span>
+                        <ul>
+                            <li class="profession-duties-item">SoloLearn</li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div>
+               <h2 class="profession-title">La<span class="profession-company">nguages:</span></h2>
+
+                <ul class="profession-duties">
+                    <li class="profession-duties-item">English - Intermediate/Upper-intermediate (B1-B2)
+                    </li>
+                     <li class="profession-duties-item">Ukrainian - Native
+                    </li>
+                     <li class="profession-duties-item">Russian - Intermediate
+                    </li>
+                </ul>
+                        
+            </div>
+
+            <div>
+                <h2 class="profession-title">Code <span class="profession-company">example: </span> </h2>
+                <div>
+                    <pre>
+                        function multiply(a, b){
+                            let result = a * b;
+                            return result;
+                        }
+                    </pre>
+                </div>
+            </div>
+
+            <div class="my-first-project">
+                <h3 class="profession-title">Pro <span class="profession-company">jects:</span>
+                </h3>
+                <a class="first-project" href="https://lemmdev.github.io/rsschool-cv" target="_blank">[My first project (this CV)]</a>
+        
+            </div>
+                <!--My personal-info-->
+            <div>
+                
+                <h2 class="profession-title">Personal <span class="profession-company">information</span></h2>
+                <ul class="profession-duties">
+                    <li class="profession-duties-item">
+                        Age: 32, married
+                    </li>
+                    <li class="profession-duties-item">
+                        AB+ blood donor
+                    </li>
+                    <li class="profession-duties-item">
+                        Adress: Vinnitsya
+                    </li>
+                    <li class="profession-duties-item">
+                        Hobby: cycling, traveling
+                    </li>
+                </ul>
+            </div>
+
+            <footer class="footer">
+                <nav>
+                    <ul class="footer-navigation">
+                        <li class="about-me-title">2021</li>
+                        
+                        <li>
+                            <a href="https://github.com/LemmDEV" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                        </li>
+            
+                        <li>
+                            <a href="https://rs.school/js/" target="_blank"><img src="./rs_school_js.svg" style="width: 100px;" alt="rs school logo"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </footer>
+        </main>
+
+        <aside class="sidebar">
+
+            <img class="my-photo" src="./photo_2021-11-25_19-07-43.jpg" alt="My photo" title="Olexandr Chornij">
+            <div>
+                <!-- Contacts container  -->
+                <div class="contacts-container">
+                    <h3 class="contacts-title">Contact information:</h3>
+
+                    <ul>
+                        <li>
+                            <span class="contacts-link-type">
+                                <i class="fas fa-phone-square"></i>
+                            </span>
+                            <a class="contacts-link" href="tel:099-99-99-999">+38 097-817-66-29 </a>
+                        </li>
+    
+                        <li>
+                            <span class="contacts-link-type">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            <a class="contacts-link" href="mailto:ch_dev@ukr.net">ch_dev@ukr.net</a>
+                        </li>
+    
+                        <li>
+                            <span class="contacts-link-type">
+                                <i class="fab fa-telegram-plane"></i>
+                            </span>
+                            <span>Telegram: @missmeagol</span>
+                        </li>
+                                
+                        <li>
+                            <span class="contacts-link-type">
+                                <i class="fab fa-discord"></i>
+                            </span>
+                            <span>Discord: Lemm#0720
+                            </span>
+                        </li>
+                    </ul>
+                        
+                </div>
+
+                <!--My Tech Skills-->
+
+                <div class="tech-skills-container">
+                    <h3 class="tech-skills-title">Tech Skills</h3>
+
+                    <ul>
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">HTML5</span>
+                            <div class="progress-bar">
+                                <div class="progress HTML5"></div>
+                            </div>
+                        </li>
+
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">CSS3 </span>
+                            <div class="progress-bar">
+                                <div class="progress CSS3"></div>
+                            </div>
+                        </li>
+
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">Git</span>
+                            <div class="progress-bar">
+                                <div class="progress GIT"></div>
+                            </div>
+                        </li>
+
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">PrePros</span>
+                            <div class="progress-bar">
+                                <div class="progress prepros"></div>
+                            </div>
+                        </li>
+
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">VS Code</span>
+                            <div class="progress-bar">
+                                <div class="progress vscode"></div>
+                            </div>
+                        </li>
+
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">Figma</span>
+                            <div class="progress-bar">
+                                <div class="progress figma"></div>
+                            </div>
+                        </li>
+
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">JavaScript     </span>
+                            <div class="progress-bar">
+                                <div class="progress JavaScript"></div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="my-soft-skills-container">
+                    <!--My Soft Skills-->
+                    <h3 class="tech-skills-title">Soft Skills to Gain</h3>
+                    <ul>
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">Scrum</span>
+                        </li>
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">Agile</span>
+                        </li>
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">GTD</span>
+                        </li>
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">Teamwork</span>
+                        </li>
+                    </ul>
+                </div>
+
+                
+            </div>
+
+        </aside>
+
+    </div>
+
 </body>
+
 </html>
