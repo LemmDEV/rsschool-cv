@@ -30,7 +30,6 @@ body {
     padding-bottom: 40px;
     display: flex;
     flex-direction: column;
-
 }
 
 .my-photo {
@@ -41,7 +40,7 @@ body {
     padding-left: 90px;
     padding-right: 90px;
     padding-top: 110px;
-    padding-bottom: 110px;
+    padding-bottom: 50px;
 }
 
 .contacts-container {
@@ -49,8 +48,9 @@ body {
     margin-left: 40px;
     margin-right: 40px;
 } 
-.contacts-container>div{
-    transition: 0.7s;
+.contacts-container ul{
+    list-style: none;
+    color:#ffffff;  ;
 }
 .contacts-title {
     color: #ffffff;    
@@ -126,10 +126,6 @@ body {
     line-height: 89px;
     transition: 0.7s;
 }
-.name:hover,
-.contacts-container>div:hover{
-   transform: scale(1.1);
-}
 
 .description {
     font-size: 14px;
@@ -137,7 +133,6 @@ body {
     line-height: 24px;
     color:  #595959;
     margin-top: 24px;
-    
 }
 
 .info-container {
@@ -172,9 +167,12 @@ body {
 
 .project-item {
     font-weight: 700;
-    margin-left: 17px;
-   }
+    list-style: none;
+}
 
+.project-item>ul {
+    padding-left: 50px;
+}
 .project-container {
     margin-bottom: 55px;
 }
@@ -207,7 +205,6 @@ body {
     margin-bottom: 30px;
 }
 
-
 .profession-duties-item {
     color: #595959;
     font-size: 14px;
@@ -215,13 +212,18 @@ body {
     line-height: 24px;    
 }
 
-.cafedra-style {
-    color: #000000;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
-    margin-top: 14px;
-    margin-bottom: 14px;
+.first-project {
+    text-decoration: none;
+}
+.first-project:hover {
+    text-decoration: underline;
+}
+
+a:visited, a:link {
+    color: inherit;
+}
+.my-first-project {
+    margin-bottom: 65px;
 }
 
 /* progress-block */
@@ -234,7 +236,6 @@ body {
     align-self: center;
     border: 1px solid #555d69;
     box-sizing: border-box;
-    
 }
 .progress{
     
@@ -260,6 +261,23 @@ body {
 }
 .JavaScript{
     width: 5%;
+}
+
+/* footer */
+.footer {
+    padding-top: 30px;
+    bottom:0;
+}
+
+.footer-navigation {
+    vertical-align: baseline;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.footer-navigation li {
+    margin-bottom: 0;
+    vertical-align: baseline;
 }
 
 @media (max-width: 1100px){

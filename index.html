@@ -15,7 +15,7 @@
     <!--Main-->
     <div class="wrapper">
         <!-- About me container -->
-        <div class="about-me-container">
+        <main class="about-me-container">
             <div class="info-container">
                 <!--My name + info-->
                 <h2 class="profession">Front-End Developer</h2>
@@ -30,49 +30,46 @@
                 <!--My projects here-->
                 <!-- <h3 class="about-me-title">Education:</h3> -->
 
-                <h4 class="profession-title">Ed<span class="profession-company">ucation:</span></h4>
+                <h2 class="profession-title">Ed<span class="profession-company">ucation:</span></h2>
                 <ul>
                     <li class="project-item"> 
                         University "Ukraine"
-                        <span class="dots">.....................................................</span>
+                        <span class="dots">.....................................................................</span>
                         <ul>
-                            <li><span class="profession-duties-item">manager of public authorities and administration</span></li>
+                            <li class="profession-duties-item">manager of public authorities and administration</li>
                         </ul>
                     </li>
 
                     <li class="project-item">
                         GoIT
-                        <span class="dots">...............................................................................</span>
+                        <span class="dots">.......................................................................................................</span>
                         <ul>
-                            <li><span class="profession-duties-item">7 day HTML/CSS marathon</span></li>
+                            <li class="profession-duties-item">7 day HTML/CSS marathon</li>
                         </ul>
                     </li>
 
                     <li class="project-item">
                         Courses:
-                        <span class="dots">.......................................................................... </span>
+                        <span class="dots">............................................................................................... </span>
                         <ul>
-                            <li><span class="profession-duties-item">Beetroot Academy (html/css)</span></li>
-                            <li><span class="profession-duties-item">CS50 lectures</span></li>
+                            <li class="profession-duties-item">Beetroot Academy (html/css)</li>
+                            <li class="profession-duties-item">CS50 lectures</li>
                         </ul>
                     </li>
                       
                     <li class="project-item">
                         Apps:
-                        <span class="dots">.............................................................................. </span>
+                        <span class="dots">..................................................................................................... </span>
                         <ul>
-                            <li><span class="profession-duties-item">SoloLearn</span></li>
+                            <li class="profession-duties-item">SoloLearn</li>
                         </ul>
                     </li>
 
                 </ul>
             </div>
 
-            <main>
-                <!-- My work described here-->
-                <!-- <h3 class="about-me-title">Work experience</h3> -->
-
-                <h4 class="profession-title">La<span class="profession-company">nguages:</span></h4>
+            <div>
+               <h2 class="profession-title">La<span class="profession-company">nguages:</span></h2>
 
                 <ul class="profession-duties">
                     <li class="profession-duties-item">English - Intermediate/Upper-intermediate (B1-B2)
@@ -83,10 +80,10 @@
                     </li>
                 </ul>
                         
-            </main>
+            </div>
 
             <div>
-                <h4 class="profession-title">Code <span class="profession-company">example: </span> </h4>
+                <h2 class="profession-title">Code <span class="profession-company">example: </span> </h2>
                 <div>
                     <pre>
                         function multiply(a, b){
@@ -97,66 +94,87 @@
                 </div>
             </div>
 
-            <div>
+            <div class="my-first-project">
                 <h3 class="profession-title">Pro <span class="profession-company">jects:</span>
                 </h3>
-                <a href="https://lemmdev.github.io/rsschool-cv/cv">[My first project (this CV)]</a>
+                <a class="first-project" href="https://lemmdev.github.io/rsschool-cv" target="_blank">[My first project (this CV)]</a>
         
+            </div>
+                <!--My personal-info-->
+            <div>
+                
+                <h2 class="profession-title">Personal <span class="profession-company">information</span></h2>
+                <ul class="profession-duties">
+                    <li class="profession-duties-item">
+                        Age: 32, married
+                    </li>
+                    <li class="profession-duties-item">
+                        AB+ blood donor
+                    </li>
+                    <li class="profession-duties-item">
+                        Adress: Vinnitsya
+                    </li>
+                    <li class="profession-duties-item">
+                        Hobby: cycling, traveling
+                    </li>
+                </ul>
             </div>
 
             <footer class="footer">
                 <nav>
-                    <ul class="footer--navigation">
-                       <li> <p><h3 class="about-me-title">2021</h3></p>
-                        </li>
+                    <ul class="footer-navigation">
+                        <li class="about-me-title">2021</li>
+                        
                         <li>
-                            <a href="https://github.com/LemmDEV"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/LemmDEV" target="_blank"><i class="fab fa-github fa-2x"></i></a>
                         </li>
             
                         <li>
-                            <img src="./rs_school_js.svg" style="width: 100px;" alt="rs school logo">
+                            <a href="https://rs.school/js/" target="_blank"><img src="./rs_school_js.svg" style="width: 100px;" alt="rs school logo"></a>
                         </li>
                     </ul>
                 </nav>
             </footer>
-        </div>
+        </main>
 
         <aside class="sidebar">
 
-            <img class="my-photo" src="./photo_2021-11-25_19-07-43.jpg" alt="My photo">
+            <img class="my-photo" src="./photo_2021-11-25_19-07-43.jpg" alt="My photo" title="Olexandr Chornij">
             <div>
                 <!-- Contacts container  -->
                 <div class="contacts-container">
                     <h3 class="contacts-title">Contact information:</h3>
 
-                    <div>
-                        <span class="contacts-link-type">
-                            <i class="fas fa-phone-square"></i>
-                        </span>
-                        <a class="contacts-link" href="tel:099-99-99-999">+38 097-817-66-29 </a>
-                    </div>
-
-                    <div>
-                        <span class="contacts-link-type">
-                            <i class="fas fa-envelope"></i>
-                        </span>
-                        <a class="contacts-link" href="mailto:ch_dev@ukr.net">ch_dev@ukr.net</a>
-                    </div>
-
-                    <div>
-                        <span class="contacts-link-type">
-                            <i class="fab fa-telegram-plane"></i>
-                        </span>
-                        <span>Telegram: @missmeagol</span>
-                    </div>
-                            
-                    <div>
-                        <span class="contacts-link-type">
-                            <i class="fab fa-discord"></i>
-                        </span>
-                        <span>Discord: Lemm#0720
-                        </span>
-                    </div>
+                    <ul>
+                        <li>
+                            <span class="contacts-link-type">
+                                <i class="fas fa-phone-square"></i>
+                            </span>
+                            <a class="contacts-link" href="tel:099-99-99-999">+38 097-817-66-29 </a>
+                        </li>
+    
+                        <li>
+                            <span class="contacts-link-type">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            <a class="contacts-link" href="mailto:ch_dev@ukr.net">ch_dev@ukr.net</a>
+                        </li>
+    
+                        <li>
+                            <span class="contacts-link-type">
+                                <i class="fab fa-telegram-plane"></i>
+                            </span>
+                            <span>Telegram: @missmeagol</span>
+                        </li>
+                                
+                        <li>
+                            <span class="contacts-link-type">
+                                <i class="fab fa-discord"></i>
+                            </span>
+                            <span>Discord: Lemm#0720
+                            </span>
+                        </li>
+                    </ul>
                         
                 </div>
 
@@ -237,26 +255,7 @@
                     </ul>
                 </div>
 
-                <div class="personal-info-container">
-                    <!--My personal-info-->
-                    <h3 class="tech-skills-title">Personal information</h3>
-                    <ul>
-                        <li class="tech-skills-item">
-                            <span class="tech-skills-text">Age: 32, married</span>
-                        </li>
-                        <li class="tech-skills-item">
-                            <span class="tech-skills-text">AB+ blood donor</span>
-                        </li>
-                        <li class="tech-skills-item">
-                            <span class="tech-skills-text">Adress: Vinnitsya</span>
-                        </li>
-                        <li class="tech-skills-item">
-                            <span class="tech-skills-text">Hobby: cycling, traveling</span>
-                        </li>
-                    </ul>
-                </div>
-
-
+                
             </div>
 
         </aside>
